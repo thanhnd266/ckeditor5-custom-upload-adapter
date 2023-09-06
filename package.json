@@ -4,7 +4,6 @@
   "description": "A custom CKEditor 5 with custom upload adapter and html embedded for ReactJs",
   "version": "0.0.1",
   "license": "MIT",
-  "private": true,
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
   "dependencies": {
@@ -47,5 +46,19 @@
   "scripts": {
     "build": "webpack --mode production",
     "postbuild": "tsc -p ./tsconfig.types.json"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhnd266/ckeditor5-custom-upload-adapter.git"
+  },
+  "keywords": [
+    "ckeditor5-custom",
+    "ckeditor-react",
+    "htmlembed",
+    "ckeditor-upload"
+  ],
+  "bugs": {
+    "url": "https://github.com/thanhnd266/ckeditor5-custom-upload-adapter/issues"
+  },
+  "homepage": "https://github.com/thanhnd266/ckeditor5-custom-upload-adapter#readme"
 }
